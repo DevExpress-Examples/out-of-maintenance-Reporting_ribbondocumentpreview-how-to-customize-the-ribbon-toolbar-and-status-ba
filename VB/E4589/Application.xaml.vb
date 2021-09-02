@@ -1,5 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.Collections.Generic
 Imports System.Configuration
 Imports System.Data
@@ -13,5 +12,6 @@ Namespace E4589
 	''' </summary>
 	Partial Public Class App
 		Inherits Application
+
 	End Class
 End Namespace

@@ -1,13 +1,13 @@
-﻿Imports Microsoft.VisualBasic
-Imports DevExpress.Xpf.Bars
+﻿Imports DevExpress.Xpf.Bars
 Imports System.Windows
 
 Namespace E4589
 	Partial Public Class MainWindow
 		Inherits Window
+
 		Public Sub New()
 			InitializeComponent()
-			AddHandler Loaded, AddressOf MainWindow_Loaded
+			AddHandler Me.Loaded, AddressOf MainWindow_Loaded
 		End Sub
 
 		Private Sub MainWindow_Loaded(ByVal sender As Object, ByVal e As RoutedEventArgs)
