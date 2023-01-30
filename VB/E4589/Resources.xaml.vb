@@ -1,22 +1,24 @@
-﻿Imports Microsoft.VisualBasic
 Imports System.Windows
 
 Namespace E4589
-	Partial Public Class Resources
-		Inherits ResourceDictionary
-		Private Shared instance_Renamed As Resources
-		Public Shared ReadOnly Property Instance() As Resources
-			Get
-				Return instance_Renamed
-			End Get
-		End Property
 
-		Shared Sub New()
-			instance_Renamed = New Resources()
-		End Sub
+    Public Partial Class Resources
+        Inherits ResourceDictionary
 
-		Public Sub New()
-			InitializeComponent()
-		End Sub
-	End Class
+        Private Shared instanceField As Resources
+
+        Public Shared ReadOnly Property Instance As Resources
+            Get
+                Return instanceField
+            End Get
+        End Property
+
+        Shared Sub New()
+            instanceField = New Resources()
+        End Sub
+
+        Public Sub New()
+            Me.InitializeComponent()
+        End Sub
+    End Class
 End Namespace
