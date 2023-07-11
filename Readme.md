@@ -6,11 +6,11 @@
 <!-- default file list -->
 *Files to look at*:
 
-* **[MainWindow.xaml](./CS/E4589/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/E4589/MainWindow.xaml))**
-* [MainWindow.xaml.cs](./CS/E4589/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/E4589/MainWindow.xaml.vb))
-* [Resources.xaml](./CS/E4589/Resources.xaml) (VB: [Resources.xaml](./VB/E4589/Resources.xaml))
-* [Resources.xaml.cs](./CS/E4589/Resources.xaml.cs) (VB: [Resources.xaml.vb](./VB/E4589/Resources.xaml.vb))
-* [ViewModel.cs](./CS/E4589/ViewModel.cs) (VB: [ViewModel.vb](./VB/E4589/ViewModel.vb))
+* **[MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))**
+* [MainWindow.xaml.cs](./CS/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/MainWindow.xaml.vb))
+* [Resources.xaml](./CS/Resources.xaml) (VB: [Resources.xaml](./VB/Resources.xaml))
+* [Resources.xaml.cs](./CS/Resources.xaml.cs) (VB: [Resources.xaml.vb](./VB/Resources.xaml.vb))
+* [ViewModel.cs](./CS/ViewModel.cs) (VB: [ViewModel.vb](./VB/ViewModel.vb))
 <!-- default file list end -->
 # RibbonDocumentPreview -  How to customize the Ribbon toolbar and status bar
 
